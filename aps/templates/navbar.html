@@ -1,0 +1,55 @@
+<nav class="w-64 min-h-screen p-6 shadow-xl border-r border-gray-100">
+    <div class="mb-10">
+        <h1 class="text-3xl font-semibold text-black tracking-tight gradient-text">APS Portal</h1>
+    </div>
+    <ul class="space-y-2">
+        <li>
+            <a href="{% url 'dashboard' %}" class="block py-3 px-4 rounded-lg text-gray-700 
+                transition-all duration-300 hover:bg-[#F29F67] hover:text-white hover:shadow-md">
+                Dashboard
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'profile' %}" class="block py-3 px-4 rounded-lg text-gray-700 
+                transition-all duration-300 hover:bg-[#F29F67] hover:text-white hover:shadow-md">
+                Profile
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'attendance' %}" class="block py-3 px-4 rounded-lg text-gray-700 
+                transition-all duration-300 hover:bg-[#F29F67] hover:text-white hover:shadow-md">
+                Attendance
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'tasks' %}" class="block py-3 px-4 rounded-lg text-gray-700 
+                transition-all duration-300 hover:bg-[#F29F67] hover:text-white hover:shadow-md">
+                Time Sheet
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'breaks' %}" class="block py-3 px-4 rounded-lg text-gray-700 
+                transition-all duration-300 hover:bg-[#F29F67] hover:text-white hover:shadow-md">
+                Breaks
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'chat' %}" class="block py-3 px-4 rounded-lg text-gray-700 
+                transition-all duration-300 hover:bg-[#F29F67] hover:text-white hover:shadow-md">
+                Chat Room
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'it_support' %}" class="block py-3 px-4 rounded-lg text-gray-700 
+                transition-all duration-300 hover:bg-[#F29F67] hover:text-white hover:shadow-md">
+                IT Support
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'leave_request' %}" class="block py-3 px-4 rounded-lg text-gray-700 
+                transition-all duration-300 hover:bg-[#F29F67] hover:text-white hover:shadow-md">
+                Leave Request
+            </a>
+        </li>
+    </ul>
+</nav>
